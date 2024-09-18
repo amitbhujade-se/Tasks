@@ -1,0 +1,27 @@
+.count-container{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border: 5px double darkred;
+    margin: 20px;
+}
+
+.main-count{
+    width: 200px;
+    background: chocolate;
+    color: white;
+    padding: 10px;
+}
+
+.increment-btn{
+    background: skyblue;
+    margin: 5px;
+}
+
+.reset-btn{
+    background: yellow;
+    margin: 5px;
+}

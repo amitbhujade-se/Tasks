@@ -1,0 +1,15 @@
+.button-blog{
+    display: inline;
+    background: transparent;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+.post-container{
+    margin: 5%;
+    background-color: goldenrod;
+    padding: 20px;
+    border-radius: 20px;
+}

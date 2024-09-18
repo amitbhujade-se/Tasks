@@ -1,0 +1,33 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px double rgb(180, 13, 13);
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.loginform button {
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    background: greenyellow;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 1px 0px 10px 1px green;
+}
+
+.logout button {
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    background: greenyellow;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 1px 0px 10px 1px green;
+}

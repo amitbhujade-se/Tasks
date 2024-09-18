@@ -1,0 +1,52 @@
+.todo-main-container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    border: 5px double darkred;
+    margin: 20px;
+}
+
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.todo-heading{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+.filter-buttons button{
+    margin: 0 10px;
+    background: linear-gradient(rgb(244, 83, 83), rgb(17, 225, 17), rgb(244, 244, 2));
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.task-list{
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.task{
+    font-weight: 700;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+.task button{
+    background-color: cadetblue;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}

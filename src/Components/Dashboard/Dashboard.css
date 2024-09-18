@@ -1,0 +1,28 @@
+.main-dashboard{
+    border: 5px double darkred;
+    margin: 20px;
+}
+.dashboard-container {
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+/* Notification styling */
+.notification {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
