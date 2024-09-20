@@ -1,0 +1,32 @@
+/* ThemeSwitcher.css */
+.app-container {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border: 5px double darkred;
+}
+
+.app-container.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.app-container.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
